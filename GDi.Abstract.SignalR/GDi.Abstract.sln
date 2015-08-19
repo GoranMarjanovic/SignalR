@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDi.Abstract.SignalR", "GDi.Abstract.SignalR\GDi.Abstract.SignalR.csproj", "{C469E7AE-865B-45A8-88B7-5AFC5716AB45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDi.Abstract.SignalR.Client", "GDi.Abstract.SignalR.Client\GDi.Abstract.SignalR.Client.csproj", "{CFC56613-6D64-45C2-BC14-3B54FF15F445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDi.Abstract.SignalR.Server", "GDi.Abstract.SignalR.Server\GDi.Abstract.SignalR.Server.csproj", "{A3F84791-E667-4F95-BC96-956EAB529FC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D2B3FACC-6740-4223-9E94-B11A1B26BA1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestServer", "Test\TestServer\TestServer.csproj", "{A88348A1-693E-42A8-8EF6-C380A7DFE299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClient", "Test\TestClient\TestClient.csproj", "{46065FA9-57C1-43DE-A791-DC62B65723EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8196F1C9-F517-4E30-8637-3DECB16062E8}"
+	ProjectSection(SolutionItems) = preProject
+		READ_ME.txt = READ_ME.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C469E7AE-865B-45A8-88B7-5AFC5716AB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C469E7AE-865B-45A8-88B7-5AFC5716AB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C469E7AE-865B-45A8-88B7-5AFC5716AB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C469E7AE-865B-45A8-88B7-5AFC5716AB45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC56613-6D64-45C2-BC14-3B54FF15F445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC56613-6D64-45C2-BC14-3B54FF15F445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC56613-6D64-45C2-BC14-3B54FF15F445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC56613-6D64-45C2-BC14-3B54FF15F445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F84791-E667-4F95-BC96-956EAB529FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F84791-E667-4F95-BC96-956EAB529FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F84791-E667-4F95-BC96-956EAB529FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F84791-E667-4F95-BC96-956EAB529FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A88348A1-693E-42A8-8EF6-C380A7DFE299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88348A1-693E-42A8-8EF6-C380A7DFE299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88348A1-693E-42A8-8EF6-C380A7DFE299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88348A1-693E-42A8-8EF6-C380A7DFE299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46065FA9-57C1-43DE-A791-DC62B65723EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46065FA9-57C1-43DE-A791-DC62B65723EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46065FA9-57C1-43DE-A791-DC62B65723EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46065FA9-57C1-43DE-A791-DC62B65723EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A88348A1-693E-42A8-8EF6-C380A7DFE299} = {D2B3FACC-6740-4223-9E94-B11A1B26BA1D}
+		{46065FA9-57C1-43DE-A791-DC62B65723EA} = {D2B3FACC-6740-4223-9E94-B11A1B26BA1D}
+	EndGlobalSection
+EndGlobal
